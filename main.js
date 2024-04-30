@@ -22,7 +22,7 @@ function executeActions(ultimaOrden) {
     if(ultimaOrden.includes(enciendeRecam)) { //Para encontrar palabra en específico
         const imagen = document.querySelector('.overlay-foco1');
         if(imagen) {
-            imagen.src = '/media/foco-encendido.gif';
+            imagen.src = 'media/foco-encendido.gif';
             imagen.alt = 'Foco recámara encendido';
         } else {
             console.error("No se encontró la imagen para cambiar");
@@ -33,7 +33,7 @@ function executeActions(ultimaOrden) {
     if(ultimaOrden.includes(apagaRecam)) {
         const imagen1 = document.querySelector('.overlay-foco1');
         if (imagen1) {
-            imagen1.src = '/media/foco-apagado.png';
+            imagen1.src = 'media/foco-apagado.png';
             imagen1.alt = 'Foco recámara apagado';
         } else {
             console.error("No se encontró la imagen para cambiar");
