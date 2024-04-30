@@ -1,0 +1,153 @@
+body {
+    font-family: 'Poppins', sans-serif; /* Aplicar Poppins a todo el cuerpo */
+    background-color: whitesmoke;
+}
+
+.navbar-custom {
+    background-color: #c9dfff; /* Aplicar el color azul cielo */
+}
+
+.small-text {
+    font-size: 1rem;
+}
+
+.brand-with-image {
+    margin-left: 8px;
+}
+
+.underline {
+    text-decoration: underline;
+    text-decoration-color: #c9dfff;
+    text-decoration-thickness: 3px; /*Grosor de la línea*/
+}
+
+.background-container {
+    position: relative;
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.background-image {
+    width: 100%;
+    height: auto;
+    max-width: 90%;
+    display: block;
+    margin: 0 auto;
+}
+
+.mt-custom {
+    margin-top: 80px;
+}
+
+.overlay-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.overlay-foco1 {
+    position: absolute;
+    top: 62%;
+    left: 51%;
+    z-index: 1;
+}
+
+.overlay-foco2 {
+    position: absolute;
+    top: 42%;
+    left: 65%;
+    z-index: 1;
+}
+
+.overlay-foco3 {
+    position: absolute;
+    top: 13%;
+    left: 52%;
+    z-index: 1;
+}
+
+.overlay-foco4 {
+    position: absolute;
+    top: 24%;
+    left: 72%;
+    z-index: 1;
+}
+
+.overlay-foco5 {
+    position: absolute;
+    top: 70%;
+    left: 78%;
+    z-index: 1;
+}
+
+.overlay-foco6 {
+    position: absolute;
+    top: 78%;
+    left: 20%;
+    z-index: 1;
+}
+
+.overlay-foco7 {
+    position: absolute;
+    top: 45%;
+    left: 25%;
+    z-index: 1;
+}
+
+.overlay-ventilador {
+    position: absolute;
+    top: 23%;
+    left: 31%;
+    z-index: 1;
+}
+
+.overlay-cortina1 {
+    position: absolute;
+    top: 11%;
+    left: 17%;
+    z-index: 1;
+}
+
+.overlay-cortina2 {
+    position: absolute;
+    top: 55%;
+    left: 79%;
+    z-index: 1;
+}
+
+.overlay-cortina3 {
+    position: absolute;
+    top: 73%;
+    left: 59%;
+    z-index: 1;
+}
+
+.overlay-alarma {
+    position: absolute;
+    top: 34%;
+    left: 7%;
+    z-index: 1;
+}
+
+.overlay-camara1 {
+    position: absolute;
+    top: 39%;
+    left: 88%;
+    z-index: 1;
+}
+
+.overlay-camara2 {
+    position: absolute;
+    top: 59%;
+    left: 20%;
+    z-index: 1;
+}
+
+.overlay-camara3 {
+    position: absolute;
+    top: 77%;
+    left: 49%;
+    z-index: 1;
+}
