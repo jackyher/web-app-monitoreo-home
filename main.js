@@ -137,26 +137,26 @@ function executeActions(ultimaOrden) {
     }
 
     //Para activar alarmas
+    const audioActiv = new Audio('media/encender.mp3');
     if(ultimaOrden.includes(activaAlarm)) {
         const imagen10 = document.querySelector('.overlay-alarma');
-        const audio = new Audio('media/encender.mp3');
         if (imagen10) {
             imagen10.src = 'media/alarma-encendida.png';
             imagen10.alt = 'Alarma encendida';
-            audio.play();
+            audioActiv.play();
         } else {
             console.error("No se encontró la imagen para cambiar");
         }
     }
 
     //Para desactivar alarmas
+    const audioDesac = new Audio('media/apagar.mp3');
     if(ultimaOrden.includes(desacAlarm)) {
         const imagen11 = document.querySelector('.overlay-alarma');
-        const audio = new Audio('media/apagar.mp3');
         if (imagen11) {
             imagen11.src = 'media/alarma-apagada.png';
             imagen11.alt = 'Alarma apagada';
-            audio.play();
+            audioDesac.play();
         } else {
             console.error("No se encontró la imagen para cambiar");
         }
